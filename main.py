@@ -91,7 +91,7 @@ def validate():
                                 verify_password='',
                                 verify_password_error=verify_password_error, 
                                 email=email,
-                                email_error=email_error
+                                email_error=email_error 
                                 )
     else:
         return redirect('/welcome?username={0}'.format(username))
